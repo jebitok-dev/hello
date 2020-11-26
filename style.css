@@ -3,3 +3,53 @@
     background-color:#000;
     text-align: center;
 }
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #b9f542;
+    border-radius: 3px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li {
+    margin-top: 1px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 16px sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #b9f542;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #fff;
+}
+
+textarea {
+    vertical-align: top;
+    height: 100px;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 10px;
+}
+
