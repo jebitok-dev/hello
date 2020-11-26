@@ -53,3 +53,8 @@ button {
     margin-left: 10px;
 }
 
+.sent {
+    line-height: 30px;
+    display: inline-block;
+}
+
