@@ -1,0 +1,10 @@
+@mixin rounded-corners {
+    $radius: 5px;
+
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius
+}
+
+#navbar li {@include rounded-corners;}
+#footer {@include rounded-corners;}
