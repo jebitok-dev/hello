@@ -1,0 +1,10 @@
+$color: #efefef;
+body {background: $color;}
+
+$navbar-width: 800px;
+$items: 5;
+#navbar li {
+    width: $navbar-width/$items - 10px;}
+
+    // resulting css
+    // #navbar li {width: 150px}
